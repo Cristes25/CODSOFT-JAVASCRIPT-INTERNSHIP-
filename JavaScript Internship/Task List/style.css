@@ -1,0 +1,106 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #89e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */ 
+.container {
+    margin:50px 50px ;
+    padding: 20px;
+    background-color: #66bfbf;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f76b8a;
+    text-shadow: #070707;
+   
+    
+}
+
+/* Form styling */
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Add Task button styling */
+form button {
+    padding: 20px;
+    font-size: 16px;
+    background-color: #f76b8a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add Task button hover effect */
+form button:hover {
+    background-color: #064c4c ;
+}
+
+/* Task list styling */
+ul {
+    list-style-type:none;
+    padding: 0;
+}
+
+/* Task item styling */
+ul li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    border-color: #070707;
+    color: #f76b8a;
+ 
+}
+
+
+/* Completed task item styling */
+ul li.completed {
+    
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Delete and Edit button styling */
+ul li button {
+    align-content: space-evenlys;
+    border: none;
+    background-color:#ffffff;
+    cursor: pointer;
+    color: #060101;
+    position: static;
+    
+}
+
+/* Delete and Edit button hover effect */
+ul li button:hover {
+    color: #333;
+}
+ul input{
+    order: -1;
+}
